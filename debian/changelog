@@ -1,0 +1,58 @@
+node-clone (2.1.2-3) unstable; urgency=medium
+
+  * Fix d/watch.
+  * Bump standards-version to 4.6.0.
+
+ -- Julien Puydt <jpuydt@debian.org>  Mon, 30 Aug 2021 13:26:08 +0200
+
+node-clone (2.1.2-2) unstable; urgency=medium
+
+  * Team upload
+
+  [ Debian Janitor ]
+  * Use secure copyright file specification URI.
+  * Bump debhelper from old 11 to 12.
+  * Set debhelper-compat version in Build-Depends.
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
+    Repository-Browse.
+
+  [ Xavier Guimard ]
+  * Declare compliance with policy 4.5.0
+  * Use pkg-js-tools auto install
+  * Add "Rules-Requires-Root: no"
+  * Add debian/gbp.conf
+  * Enable upstream test using nodeunit
+
+ -- Xavier Guimard <yadd@debian.org>  Wed, 29 Apr 2020 13:20:12 +0200
+
+node-clone (2.1.2-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Julien Puydt <jpuydt@debian.org>  Tue, 01 May 2018 11:07:58 +0200
+
+node-clone (2.1.1-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Julien Puydt <julien.puydt@laposte.net>  Sun, 23 Apr 2017 10:37:30 +0200
+
+node-clone (2.1.0-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Julien Puydt <julien.puydt@laposte.net>  Wed, 07 Dec 2016 16:50:00 +0100
+
+node-clone (2.0.0-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Pushed standards-version to 3.9.8.
+  * Pushed dh compat to 10.
+
+ -- Julien Puydt <julien.puydt@laposte.net>  Sun, 02 Oct 2016 15:57:05 +0200
+
+node-clone (1.0.2-1) unstable; urgency=low
+
+  * Initial release (Closes: #805907)
+
+ -- Julien Puydt <julien.puydt@laposte.net>  Wed, 13 Apr 2016 14:44:44 +0200
