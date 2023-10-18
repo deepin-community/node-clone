@@ -2,6 +2,7 @@ Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: clone
 Upstream-Contact: https://github.com/pvorb/node-clone/issues
 Source: https://github.com/pvorb/node-clone
+ https://registry.npmjs.org/@types/clone
 
 Files: *
 Copyright: 2016-2018 Paul Vorbach <paul@vorba.ch> (http://paul.vorba.ch/)
@@ -9,6 +10,10 @@ License: Expat
 
 Files: debian/*
 Copyright: 2016-2018 Julien Puydt <julien.puydt@laposte.net>
+License: Expat
+
+Files: types-*/*
+Copyright: Microsoft Corporation
 License: Expat
 
 License: Expat

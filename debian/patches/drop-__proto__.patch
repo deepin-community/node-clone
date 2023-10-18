@@ -1,0 +1,16 @@
+Description: drop __proto__ call
+Author: Yadd <yadd@debian.org>
+Forwarded: no
+Last-Update: 2022-09-14
+
+--- a/test.js
++++ b/test.js
+@@ -240,7 +240,7 @@
+   var n = null;
+ 
+   var a = { foo: 'bar' };
+-  a.__proto__ = n;
++  Object.setPrototypeOf(a, n);
+   test.ok(typeof a === 'object');
+   test.ok(typeof a !== null);
+ 

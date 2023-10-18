@@ -1,3 +1,23 @@
+node-clone (2.1.2+~2.1.2-1) unstable; urgency=medium
+
+  * Team upload
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
+    Repository-Browse
+  * Update standards version to 4.6.2, no changes needed
+  * Embed typescript declarations and repack
+
+ -- Yadd <yadd@debian.org>  Sun, 10 Sep 2023 07:52:45 +0400
+
+node-clone (2.1.2-4) unstable; urgency=medium
+
+  * Team upload
+  * Update standards version to 4.6.1, no changes needed.
+  * Fix filenamemangle
+  * Drop dependency to nodejs
+  * Replace __proto__ call by Object.setPrototypeOf
+
+ -- Yadd <yadd@debian.org>  Wed, 14 Sep 2022 16:32:52 +0200
+
 node-clone (2.1.2-3) unstable; urgency=medium
 
   * Fix d/watch.
